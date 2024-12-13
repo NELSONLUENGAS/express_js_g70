@@ -3,7 +3,9 @@ const Cliente = require('../models/Cliente')
 
 const handleGetClientes = async (req, res, next) => {
     try {
-        const response = await Cliente.obtenerTodos()
+        const { limit, order_by } = req.query
+
+        const response = await Cliente.obtenerTodos(limit, order_by)
 
         res.status(200).json(response)
     } catch (error) {

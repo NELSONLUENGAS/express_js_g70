@@ -1,3 +1,4 @@
+const format = require('pg-format');
 const { DB } = require('../config/db')
 
 const agregar = async (nombre, email) => {
@@ -15,10 +16,12 @@ const agregar = async (nombre, email) => {
 
 const exists = async (id) => {
     try {
-        const SQLQuery = "SELECT * FROM clientes WHERE id = $1"
-        const SQLValues = [id]
+        const SQLQuery = format(
+            'SELECT * FROM clientes WHERE id = %s',
+            id
+        )
 
-        const { rows } = await DB.query(SQLQuery, SQLValues)
+        const { rows } = await DB.query(SQLQuery)
 
         return rows.length ? true : false
     } catch (error) {
@@ -26,9 +29,41 @@ const exists = async (id) => {
     }
 }
 
-const obtenerTodos = async () => {
+const obtenerTodos = async (limit = 10, order_by = 'id_ASC') => {
     try {
-        const SQLQuery = "SELECT * FROM clientes"
+        const [field, order] = order_by.split('_') // id_ASC = > ['id', 'ASC']
+
+        const SQLQuery = format(`
+                SELECT * FROM clientes
+                ORDER BY %s %s
+                LIMIT %s
+            `,
+            field,
+            order,
+            limit
+        )
+
+        const { rows } = await DB.query(SQLQuery)
+
+        return rows
+    } catch (error) {
+        throw error
+    }
+}
+
+const obtenerTodosFiltrados = async () => {
+    try {
+        const [field, order] = order_by.split('_') // id_ASC = > ['id', 'ASC']
+
+        const SQLQuery = format(`
+                SELECT * FROM clientes
+                WHERE 
+            `,
+            field,
+            order,
+            limit
+        )
+
         const { rows } = await DB.query(SQLQuery)
 
         return rows
@@ -83,5 +118,6 @@ module.exports = {
     actualizarCliente,
     eliminarCliente,
     buscarClientes,
-    exists
+    exists,
+    obtenerTodosFiltrados
 }

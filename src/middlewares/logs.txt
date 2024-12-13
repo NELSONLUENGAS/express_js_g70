@@ -1,0 +1,29 @@
+
+            2024-12-13T00:07:39.647Z | IP: ::ffff:127.0.0.1 | GET /api/v2/personal/filtered?salario_max=20000&role=farmaceutico
+            Status: 200 | Duration: 293ms
+            User Agent: Unknown
+            Query String: {"salario_max":"20000","role":"farmaceutico"}
+            Request Body: {}
+
+        
+            2024-12-13T00:08:44.171Z | IP: ::ffff:127.0.0.1 | POST /api/v2/personal/filtered?salario_max=20000&role=farmaceutico
+            Status: 404 | Duration: 3ms
+            User Agent: Unknown
+            Query String: {"salario_max":"20000","role":"farmaceutico"}
+            Request Body: {}
+
+        
+            2024-12-13T00:10:30.281Z | IP: ::ffff:127.0.0.1 | POST /api/v2/personal/filtered?salario_max=20000&role=farmaceutico
+            Status: 404 | Duration: 19ms
+            User Agent: Unknown
+            Query String: {"salario_max":"20000","role":"farmaceutico"}
+            Request Body: {}
+
+        
+            2024-12-13T00:10:34.103Z | IP: ::ffff:127.0.0.1 | GET /api/v2/personal/filtered?salario_max=20000&role=farmaceutico
+            Status: 500 | Duration: 22ms
+            User Agent: Unknown
+            Query String: {"salario_max":"20000","role":"farmaceutico"}
+            Request Body: {}
+
+        

@@ -1,6 +1,7 @@
 const { Router } = require('express')
 const { handleGetClientes, handleCreateCliente, handleUpdateCliente, handleDeleteCliente, handleSearchClientes } = require('../controllers/clientes.controller')
 const { handleGetTodos, handleCreateTodo } = require('../controllers/todos.controller')
+const { handleGetPersonal } = require('../controllers/personal.controller')
 
 const router = Router()
 
@@ -9,6 +10,8 @@ router.get('/clientes/buscar', handleSearchClientes)
 router.post('/clientes', handleCreateCliente)
 router.put('/clientes/:id', handleUpdateCliente)
 router.delete('/clientes/:id', handleDeleteCliente)
+
+router.get('/personal/filtered', handleGetPersonal)
 
 router.get('/todos', handleGetTodos)
 router.post('/todos', handleCreateTodo)
