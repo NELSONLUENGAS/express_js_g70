@@ -27,3 +27,234 @@
             Request Body: {}
 
         
+            2024-12-14T14:18:49.432Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15
+            Status: 200 | Duration: 271ms
+            User Agent: Unknown
+            Query String: {"limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T14:19:28.644Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=0
+            Status: 200 | Duration: 115ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"0"}
+            Request Body: {}
+
+        
+            2024-12-14T14:19:51.760Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=1
+            Status: 200 | Duration: 96ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"1"}
+            Request Body: {}
+
+        
+            2024-12-14T14:19:56.647Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=2
+            Status: 200 | Duration: 5ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"2"}
+            Request Body: {}
+
+        
+            2024-12-14T14:20:10.308Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=3
+            Status: 200 | Duration: 111ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"3"}
+            Request Body: {}
+
+        
+            2024-12-14T14:20:36.101Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=0
+            Status: 200 | Duration: 71ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"0"}
+            Request Body: {}
+
+        
+            2024-12-14T14:21:29.527Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=4
+            Status: 200 | Duration: 99ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"4"}
+            Request Body: {}
+
+        
+            2024-12-14T14:21:44.738Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=1
+            Status: 200 | Duration: 115ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"1"}
+            Request Body: {}
+
+        
+            2024-12-14T14:42:25.683Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=1
+            Status: 200 | Duration: 136ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"1"}
+            Request Body: {}
+
+        
+            2024-12-14T14:43:49.603Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=1
+            Status: 200 | Duration: 170ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"1"}
+            Request Body: {}
+
+        
+            2024-12-14T14:44:03.491Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=2
+            Status: 200 | Duration: 100ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"2"}
+            Request Body: {}
+
+        
+            2024-12-14T14:44:24.109Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=3
+            Status: 200 | Duration: 110ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"3"}
+            Request Body: {}
+
+        
+            2024-12-14T14:45:20.181Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=8&page=3
+            Status: 200 | Duration: 217ms
+            User Agent: Unknown
+            Query String: {"limit":"8","page":"3"}
+            Request Body: {}
+
+        
+            2024-12-14T14:45:44.453Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=15&page=3
+            Status: 200 | Duration: 114ms
+            User Agent: Unknown
+            Query String: {"limit":"15","page":"3"}
+            Request Body: {}
+
+        
+            2024-12-14T14:46:46.597Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=8&page=3
+            Status: 200 | Duration: 94ms
+            User Agent: Unknown
+            Query String: {"limit":"8","page":"3"}
+            Request Body: {}
+
+        
+            2024-12-14T14:46:57.690Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=8&page=4
+            Status: 200 | Duration: 197ms
+            User Agent: Unknown
+            Query String: {"limit":"8","page":"4"}
+            Request Body: {}
+
+        
+            2024-12-14T14:47:06.104Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=8&page=5
+            Status: 200 | Duration: 16ms
+            User Agent: Unknown
+            Query String: {"limit":"8","page":"5"}
+            Request Body: {}
+
+        
+            2024-12-14T14:51:10.574Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/33
+            Status: 200 | Duration: 148ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-14T14:51:35.994Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles?limit=8&page=5
+            Status: 200 | Duration: 114ms
+            User Agent: Unknown
+            Query String: {"limit":"8","page":"5"}
+            Request Body: {}
+
+        
+            2024-12-14T14:52:04.786Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/33
+            Status: 200 | Duration: 205ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-14T15:07:24.997Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo=%27%27&ba%C3%B1os_min=%27%27&ba%C3%B1os_max=%27%27&habitaciones_min=%27%27&habitaciones_max=%27%27
+            Status: 500 | Duration: 216ms
+            User Agent: Unknown
+            Query String: {"tipo":"''","baños_min":"''","baños_max":"''","habitaciones_min":"''","habitaciones_max":"''"}
+            Request Body: {}
+
+        
+            2024-12-14T15:09:59.310Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo=%27%27&ba%C3%B1os_min=%27%27&ba%C3%B1os_max=%27%27&habitaciones_min=%27%27&habitaciones_max=%27%27&page=1&limit=15
+            Status: 500 | Duration: 227ms
+            User Agent: Unknown
+            Query String: {"tipo":"''","baños_min":"''","baños_max":"''","habitaciones_min":"''","habitaciones_max":"''","page":"1","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:11:06.779Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo=%27%27&ba%C3%B1os_min=%27%27&ba%C3%B1os_max=%27%27&habitaciones_min=%27%27&habitaciones_max=%27%27&page=1&limit=15
+            Status: 500 | Duration: 237ms
+            User Agent: Unknown
+            Query String: {"tipo":"''","baños_min":"''","baños_max":"''","habitaciones_min":"''","habitaciones_max":"''","page":"1","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:12:38.440Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo&ba%C3%B1os_min&ba%C3%B1os_max&habitaciones_min&habitaciones_max&page=1&limit=15
+            Status: 500 | Duration: 162ms
+            User Agent: Unknown
+            Query String: {"tipo":"","baños_min":"","baños_max":"","habitaciones_min":"","habitaciones_max":"","page":"1","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:13:15.185Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo&ba%C3%B1os_min&ba%C3%B1os_max&habitaciones_min&habitaciones_max&page=1&limit=15
+            Status: 500 | Duration: 309ms
+            User Agent: Unknown
+            Query String: {"tipo":"","baños_min":"","baños_max":"","habitaciones_min":"","habitaciones_max":"","page":"1","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:15:22.690Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo&ba%C3%B1os_min&ba%C3%B1os_max&habitaciones_min&habitaciones_max&page=1&limit=15
+            Status: 200 | Duration: 265ms
+            User Agent: Unknown
+            Query String: {"tipo":"","baños_min":"","baños_max":"","habitaciones_min":"","habitaciones_max":"","page":"1","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:15:58.904Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo=Casa&ba%C3%B1os_min&ba%C3%B1os_max&habitaciones_min&habitaciones_max&page=1&limit=15
+            Status: 200 | Duration: 261ms
+            User Agent: Unknown
+            Query String: {"tipo":"Casa","baños_min":"","baños_max":"","habitaciones_min":"","habitaciones_max":"","page":"1","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:16:47.690Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo=Casa&ba%C3%B1os_min&ba%C3%B1os_max&habitaciones_min&habitaciones_max&page=3&limit=15
+            Status: 200 | Duration: 152ms
+            User Agent: Unknown
+            Query String: {"tipo":"Casa","baños_min":"","baños_max":"","habitaciones_min":"","habitaciones_max":"","page":"3","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:17:56.691Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo=Casa&ba%C3%B1os_min&ba%C3%B1os_max&habitaciones_min&habitaciones_max&page=1&limit=15
+            Status: 200 | Duration: 197ms
+            User Agent: Unknown
+            Query String: {"tipo":"Casa","baños_min":"","baños_max":"","habitaciones_min":"","habitaciones_max":"","page":"1","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:18:08.233Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo=Casa&ba%C3%B1os_min&ba%C3%B1os_max&habitaciones_min&habitaciones_max&page=2&limit=15
+            Status: 200 | Duration: 144ms
+            User Agent: Unknown
+            Query String: {"tipo":"Casa","baños_min":"","baños_max":"","habitaciones_min":"","habitaciones_max":"","page":"2","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:19:19.007Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo=Casa&ba%C3%B1os_min&ba%C3%B1os_max&habitaciones_min&habitaciones_max&page=2&limit=15
+            Status: 200 | Duration: 257ms
+            User Agent: Unknown
+            Query String: {"tipo":"Casa","baños_min":"","baños_max":"","habitaciones_min":"","habitaciones_max":"","page":"2","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:19:23.369Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo=Casa&ba%C3%B1os_min&ba%C3%B1os_max&habitaciones_min&habitaciones_max&page=1&limit=15
+            Status: 200 | Duration: 17ms
+            User Agent: Unknown
+            Query String: {"tipo":"Casa","baños_min":"","baños_max":"","habitaciones_min":"","habitaciones_max":"","page":"1","limit":"15"}
+            Request Body: {}
+
+        
+            2024-12-14T15:19:48.007Z | IP: ::ffff:127.0.0.1 | GET /api/v2/inmuebles/filtered?tipo=Terreno&ba%C3%B1os_min&ba%C3%B1os_max&habitaciones_min&habitaciones_max&page=1&limit=15
+            Status: 200 | Duration: 242ms
+            User Agent: Unknown
+            Query String: {"tipo":"Terreno","baños_min":"","baños_max":"","habitaciones_min":"","habitaciones_max":"","page":"1","limit":"15"}
+            Request Body: {}
+
+        
