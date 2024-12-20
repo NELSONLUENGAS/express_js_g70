@@ -25,4 +25,10 @@ module.exports = {
         description: "Faltan campos o ingresaste campos erroneos",
         code: 400
     },
+    AUTH_ERROR: {
+        id: 'authError',
+        message: "Credenciales Incorrectas",
+        description: "Las credenciales no son correctas para el usuario",
+        code: 401
+    },
 }

@@ -258,3 +258,192 @@
             Request Body: {}
 
         
+            2024-12-19T22:55:39.707Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 500 | Duration: 36ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T22:56:19.104Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 500 | Duration: 52ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T22:56:56.651Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 404 | Duration: 279ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T22:57:51.023Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 404 | Duration: 160ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"admin@books.com","password":"12345"}
+
+        
+            2024-12-19T22:58:04.528Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 182ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"admin@books.com","password":"123456"}
+
+        
+            2024-12-19T23:23:29.123Z | IP: ::1 | DELETE /api/v2/books/delete/5
+            Status: 500 | Duration: 46ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T23:24:25.493Z | IP: ::1 | DELETE /api/v2/books/delete/5
+            Status: 500 | Duration: 45ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T23:25:32.439Z | IP: ::1 | DELETE /api/v2/books/delete/5
+            Status: 500 | Duration: 225ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T23:25:57.253Z | IP: ::1 | DELETE /api/v2/books/delete/5
+            Status: 404 | Duration: 329ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T23:26:11.107Z | IP: ::1 | DELETE /api/v2/books/delete/4
+            Status: 404 | Duration: 204ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T23:26:16.723Z | IP: ::1 | DELETE /api/v2/books/delete/3
+            Status: 200 | Duration: 18ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T23:26:37.426Z | IP: ::1 | DELETE /api/v2/books/delete/3
+            Status: 404 | Duration: 163ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T23:27:38.562Z | IP: ::1 | DELETE /api/v2/books/delete/3
+            Status: 500 | Duration: 14ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-19T23:40:56.948Z | IP: ::1 | POST /api/v2/auth/register
+            Status: 201 | Duration: 226ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"pepito@gamil.com","password":"12345"}
+
+        
+            2024-12-19T23:42:26.491Z | IP: ::1 | POST /api/v2/auth/register
+            Status: 201 | Duration: 267ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"pakoo@gamil.com","password":"12345"}
+
+        
+            2024-12-19T23:44:08.835Z | IP: ::1 | POST /api/v2/auth/register
+            Status: 201 | Duration: 297ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"pako@gamil.com","password":"12345"}
+
+        
+            2024-12-19T23:51:03.971Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 401 | Duration: 172ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"admin@books.com","password":"123456"}
+
+        
+            2024-12-19T23:51:38.945Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 401 | Duration: 319ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"pako@gamil.com","password":"123456"}
+
+        
+            2024-12-19T23:51:45.355Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 500 | Duration: 118ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"pako@gamil.com","password":"12345"}
+
+        
+            2024-12-19T23:52:09.027Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 294ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"pako@gamil.com","password":"12345"}
+
+        
+            2024-12-19T23:54:07.959Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 343ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"pako@gamil.com","password":"12345"}
+
+        
+            2024-12-19T23:54:43.754Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 404 | Duration: 223ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"pakoAdmin@gamil.com","password":"12345","role":"ADMIN"}
+
+        
+            2024-12-19T23:55:01.955Z | IP: ::1 | POST /api/v2/auth/register
+            Status: 201 | Duration: 314ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"pakoAdmin@gamil.com","password":"12345","role":"ADMIN"}
+
+        
+            2024-12-19T23:55:18.290Z | IP: ::1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 285ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"pakoAdmin@gamil.com","password":"12345"}
+
+        
+            2024-12-20T00:03:41.089Z | IP: ::1 | DELETE /api/v2/books/delete/2
+            Status: 401 | Duration: 48ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-20T00:04:12.682Z | IP: ::1 | DELETE /api/v2/books/delete/2
+            Status: 200 | Duration: 290ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2024-12-20T00:04:19.983Z | IP: ::1 | DELETE /api/v2/books/delete/2
+            Status: 404 | Duration: 24ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        

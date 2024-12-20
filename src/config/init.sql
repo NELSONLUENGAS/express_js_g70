@@ -1,4 +1,4 @@
--- Active: 1731027127296@@127.0.0.1@5432@gestion_clientes
+-- Active: 1734387683822@@127.0.0.1@5432@gestion_clientes
 
 CREATE TABLE clientes (
     id SERIAL,
@@ -964,3 +964,67 @@ VALUES (
         -36.606378,
         -72.102790
     );
+
+-- Gestión de libros
+CREATE DATABASE gestion_libros;
+
+\c vida_sana;
+
+CREATE TABLE books (
+    id SERIAL,
+    title VARCHAR(50) NOT NULL,
+    book_description VARCHAR(250) NOT NULL,
+    author VARCHAR(250) NOT NULL
+);
+
+INSERT INTO
+    books (
+        title,
+        book_description,
+        author
+    )
+values (
+        'Libro1',
+        'Descripción libro 1',
+        'Autor libro 1'
+    ),
+    (
+        'Libro2',
+        'Descripción libro 2',
+        'Autor libro 2'
+    ),
+    (
+        'Libro3',
+        'Descripción libro 3',
+        'Autor libro 3'
+    )
+
+-- ROLES Admin (Administrator) Librarian (Librarian) User (Registered User) Guest (Guest User)
+DROP TABLE users;
+
+CREATE TABLE users (
+    id SERIAL,
+    email VARCHAR(50) NOT NULL,
+    email_verified BOOLEAN DEFAULT FALSE,
+    password VARCHAR(60) NOT NULL,
+    role VARCHAR(20) DEFAULT 'USER' CHECK (
+        role IN (
+            'ADMIN',
+            'LIBRARIAN',
+            'USER',
+            'GUEST'
+        )
+    )
+);
+
+INSERT INTO
+    users (email, password)
+values ('admin@books.com', '123456'),
+    (
+        'manager@books.com',
+        'abcdefg'
+    );
+
+SELECT * FROM books;
+
+SELECT * FROM users;

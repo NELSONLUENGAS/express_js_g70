@@ -6,6 +6,10 @@ const { handleGetInmuebles,
     handleGetSingleInmueble,
     handleGetInmueblesFiltered
 } = require('../controllers/inmueble.controller')
+const { handleLogin, handleRegister } = require('../controllers/auth.controller')
+const BookController = require('../controllers/books.controller')
+
+const RolesManager = require('../middlewares/rolesManager')
 
 const router = Router()
 
@@ -25,6 +29,10 @@ router.get('/inmuebles/:id', handleGetSingleInmueble)
 router.get('/todos', handleGetTodos)
 router.post('/todos', handleCreateTodo)
 
+router.post('/auth/login', handleLogin)
+router.post('/auth/register', handleRegister)
+
+router.delete('/books/delete/:id', RolesManager.handleAdmin, BookController.handleRemove)
 
 
 module.exports = router
