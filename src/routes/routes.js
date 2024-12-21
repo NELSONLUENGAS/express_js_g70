@@ -10,6 +10,7 @@ const { handleLogin, handleRegister } = require('../controllers/auth.controller'
 const BookController = require('../controllers/books.controller')
 
 const RolesManager = require('../middlewares/rolesManager')
+const { handleSendVerificationEmail, handleVerifyEmail } = require('../controllers/email.controller')
 
 const router = Router()
 
@@ -33,6 +34,9 @@ router.post('/auth/login', handleLogin)
 router.post('/auth/register', handleRegister)
 
 router.delete('/books/delete/:id', RolesManager.handleAdmin, BookController.handleRemove)
+
+router.post('/send-verification-email', handleSendVerificationEmail)
+router.get('/verify-email', handleVerifyEmail)
 
 
 module.exports = router

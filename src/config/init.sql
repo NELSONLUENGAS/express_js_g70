@@ -1028,3 +1028,11 @@ values ('admin@books.com', '123456'),
 SELECT * FROM books;
 
 SELECT * FROM users;
+
+CREATE TABLE email_verifications (
+    id SERIAL,
+    email VARCHAR(255) UNIQUE NOT NULL PRIMARY KEY,
+    token UUID NOT NULL,
+    created_at TIMESTAMP NOT NULL DEFAULT NOW(),
+    user_id INT NOT NULL
+);

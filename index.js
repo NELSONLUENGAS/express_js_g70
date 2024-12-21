@@ -7,3 +7,4 @@ const { PORT } = process.env
 app.listen(PORT || 3001, () => {
     console.log(`Server is running on http://localhost:${PORT}`)
 })
+
