@@ -573,3 +573,108 @@
             Request Body: {}
 
         
+            2025-01-09T23:59:13.529Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 11ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {}
+
+        
+            2025-01-09T23:59:48.438Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 11ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-09T23:59:52.942Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 16ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:01:14.595Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 13ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:01:47.130Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 11ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:02:00.865Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 10ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:02:41.680Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 20ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:02:51.126Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 9ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:03:03.727Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 8ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:03:38.381Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 11ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:03:49.493Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 12ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:04:06.888Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 12ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:04:15.918Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 7ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:04:33.350Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 10ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
+            2025-01-10T00:05:07.089Z | IP: ::ffff:127.0.0.1 | POST /api/v2/auth/login
+            Status: 200 | Duration: 9ms
+            User Agent: Unknown
+            Query String: {}
+            Request Body: {"email":"test@example.com","password":"password"}
+
+        
